@@ -1,0 +1,149 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container{
+
+    /* height:600px; */
+    /* height: 80 vh;  */
+    padding: 50px 50px 90px 50px;
+    background: hsl(193, 100%, 96%); /*must be put before bg-img*/
+    background-image:  url(images/bg-hero-desktop.svg);
+    /* background-size: auto 100%; */
+
+}
+
+.nav{
+    display: inline;
+}
+
+#logo{
+    width: 150px;
+    height: 30px;
+    /* padding: 10px; */
+    /* display: inline-block; */
+}
+
+.button{
+    float: right;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    /* margin: 10px 10px 10px 10px; */
+    padding: 10px;
+    border-radius: 32px;
+}
+
+#whitebutton{
+    width: 150px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 6px grey;
+}
+
+#mockup{
+    width: 720px;
+    height: 500px;
+    padding: 0px;
+    /* display: block; */
+    position: relative;
+    top: 3em;
+    /* left: 2em; */
+} 
+
+#div0{
+    display: flex;
+}
+
+#div1{
+    /* display: inline; */
+    /* height: 00px;
+    width: 500px; */
+    float: left;
+    position: relative;
+    top: 4em;
+}
+
+#div2{
+    /* display: inline; */
+    /* height: 700px;
+    width: 700px; */
+    float: right;  
+
+    /* top: 2em;
+    left: 19.3em;  when w 550/h 400 */
+}
+
+#heading{
+    margin: 20px;
+    padding: 80px 70px 0 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 50px; */
+    display: block; 
+    font-size: 2em; 
+    margin-top: 0.67em; 
+    margin-bottom: 0.67em; 
+    /* margin-left: 0;  */
+    /* margin-right: 0;  */
+    font-weight: bold;
+}
+
+#pad{
+    margin: 20px;
+    padding: 20px 15px 0 0px;
+}
+
+#pinkbutton{
+    width: 250px;
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border: hsl(322, 100%, 66%);
+    box-shadow: 2px 2px 6px hsl(322, 100%, 66%);
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+.container2{
+    background-color: white;
+    width: auto;
+    height: auto;
+
+}
+li{
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+/* 
+#div4{
+    display: inline-block;
+}*/
+#div5{
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+} 
+
+#div6{
+    display: inline-block;
+    text-align: left;
+
+}
+#div7{
+    display: inline-block;
+    text-align: left;
+
+}
+
+footer{
+    text-align: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
