@@ -113,28 +113,41 @@ body{
     height: auto;
 
 }
+ul{
+    margin: 16px 0;
+    padding: 0 40px 0 40px; 
+}
+
 li{
     list-style-type: none;
     /* text-decoration: none; */
 }
-/* 
+
 #div4{
-    display: inline-block;
-}*/
+    display: flex;
+    justify-content: space-between;
+}
 #div5{
     display: inline-block;
     text-align: left;
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;    
 } 
 
 #div6{
     display: inline-block;
     text-align: left;
+    display: flex;
+    justify-content: space-around;
 
 }
 #div7{
     display: inline-block;
     text-align: left;
+    display: flex;
+    justify-content: space-around;
 
 }
 
